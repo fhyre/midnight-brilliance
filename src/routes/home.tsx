@@ -43,8 +43,8 @@ export const Home = () => {
               your streak
             </p>
             <div className="flex justify-between gap-5">
-              {nextFiveDays.map((day) => (
-                <div className="flex flex-col items-center gap-2">
+              {nextFiveDays.map((day, i) => (
+                <div className="flex flex-col items-center gap-2" key={i}>
                   <div className="rounded-full border border-gray-200 px-[15px] py-[9px]">
                     <LightningOutlineIcon className="w-4" />
                   </div>
