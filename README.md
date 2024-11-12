@@ -23,4 +23,4 @@ Where `xxx` is to be replaced with the configuration Firebase gives to you.
 
 ## Time Spent
 
-About 6 hours, had tinker a lot with styling and finding correct assets.
+About 6 hours, had to tinker a lot with styling and finding the correct assets.
