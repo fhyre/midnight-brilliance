@@ -1,14 +1,27 @@
 import { RoundedPushableButton } from "../buttons";
 import GoogleIcon from "../../assets/icons/google.svg?react";
 import FacebookIcon from "../../assets/icons/facebook.svg?react";
+import { auth, googleProvider } from "../../firebase-config";
+import { signInWithPopup } from "firebase/auth";
+import toast from "react-hot-toast";
 
 export const OAuthRow = () => {
+  const handleGoogleLogin = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+    } catch (error) {
+      console.log(error);
+      toast.error("Could not sign in with Google");
+    }
+  };
+
   return (
     <div className="flex flex-col gap-3">
       <div className="flex gap-3">
         <RoundedPushableButton
           pushableStyles="w-full bg-gray-300"
           frontStyles="py-3 font-bold text-white bg-white border border-gray-300"
+          onClick={handleGoogleLogin}
         >
           <div className="flex items-center justify-center">
             <GoogleIcon className="w-6" />

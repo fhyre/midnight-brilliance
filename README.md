@@ -20,8 +20,7 @@ Where `xxx` is to be replaced with the configuration Firebase gives to you.
 ## Limitations
 
 1. Did not have enough time to do transitions.
-2. Did not need to use zustand and/or another global state manager as I opted for the Context API.
-3. If I had more time, I would have documented more of the code and structured the file tree a lot better.
+2. If I had more time, I would have documented more of the code and structured the file tree a lot better.
 
 ## Time Spent
 
