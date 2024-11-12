@@ -19,8 +19,7 @@ Where `xxx` is to be replaced with the configuration Firebase gives to you.
 
 ## Limitations
 
-1. Did not have enough time to do transitions.
-2. If I had more time, I would have documented more of the code and structured the file tree a lot better.
+1. If I had more time, I would have documented more of the code and structured the file tree a lot better.
 
 ## Time Spent
 
