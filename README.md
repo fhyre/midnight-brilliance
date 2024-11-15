@@ -16,11 +16,3 @@ VITE_FIREBASE_APP_ID=xxx
 Where `xxx` is to be replaced with the configuration Firebase gives to you.
 
 4. Start the development by running `npm run dev`.
-
-## Limitations
-
-1. If I had more time, I would have documented more of the code and structured the file tree a lot better.
-
-## Time Spent
-
-About 6 hours, had to tinker a lot with styling and finding the correct assets.
